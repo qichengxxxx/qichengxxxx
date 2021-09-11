@@ -1,0 +1,7 @@
+{
+  "desc": "发布时，建立索引",
+  "rules": [{
+  "action": "allow",
+  "page": "*"
+  }]
+}

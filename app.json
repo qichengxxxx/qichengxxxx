@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/publish/publish",
+<<<<<<< HEAD
+    "pages/mine/mine"
+=======
+    "pages/mine/mine",
+    "pages/pub_info/pub_info" 
+>>>>>>> 8b1949f (master)
+  ],
+
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#049fff",
+    "navigationBarTitleText": "汕淘宝",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#cc0045"
+  },
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "icon/_publish.png",
+        "selectedIconPath": "icon/publish.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/_mine.png",
+        "selectedIconPath": "icon/mine.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
